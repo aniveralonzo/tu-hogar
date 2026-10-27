@@ -1,0 +1,22 @@
+/* ===== Pantallas de autenticación: login, recuperar y restablecer contraseña ===== */
+/* Requiere cargar base.css antes (variables de color y .btn-th) */
+
+body {
+    background: linear-gradient(135deg, var(--th-oscuro) 0%, var(--th-azul) 100%);
+    min-height: 100vh;
+}
+
+.login-card {
+    max-width: 420px;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.auth-titulo {
+    color: var(--th-oscuro);
+}
+
+.acento {
+    color: var(--th-amarillo);
+    text-shadow: 0 0 1px #8a8600;
+}

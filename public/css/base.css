@@ -1,0 +1,52 @@
+/* ===== Base: paleta, tipografía general y piezas reutilizables ===== */
+/* Paleta: #1C415C (azul oscuro), #3D8DAC (azul), #E0DB3F (amarillo) */
+
+:root {
+    --th-oscuro: #1C415C;
+    --th-azul: #3D8DAC;
+    --th-amarillo: #E0DB3F;
+}
+
+body {
+    background: #f4f7f9;
+}
+
+.th-titulo {
+    color: var(--th-oscuro);
+    font-weight: 700;
+}
+
+.th-card-header {
+    background: var(--th-oscuro);
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-th {
+    background: var(--th-azul);
+    color: #fff;
+    border: 0;
+}
+
+.btn-th:hover {
+    background: var(--th-oscuro);
+    color: #fff;
+}
+
+.btn-amarillo {
+    background: var(--th-amarillo);
+    color: var(--th-oscuro);
+    font-weight: 600;
+    border: 0;
+}
+
+.btn-amarillo:hover {
+    filter: brightness(.92);
+    color: var(--th-oscuro);
+}
+
+.table thead th {
+    background: var(--th-oscuro);
+    color: #fff;
+    white-space: nowrap;
+}

@@ -1,0 +1,19 @@
+/* ===== Componentes reutilizables ===== */
+
+/* Cuadros tipo botón (Registrar producto BD, Ingreso de Ventas) */
+.th-tile {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    border-left: 6px solid var(--th-amarillo);
+    border-radius: .75rem;
+    padding: 1.5rem;
+    color: var(--th-oscuro);
+    transition: transform .15s, box-shadow .15s;
+}
+
+.th-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
+    color: var(--th-azul);
+}

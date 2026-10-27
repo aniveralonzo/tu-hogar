@@ -1,0 +1,29 @@
+/* ===== Estructura: header, menú de navegación y footer ===== */
+
+.th-header {
+    background: var(--th-oscuro);
+    color: #fff;
+}
+
+.th-acento {
+    color: var(--th-amarillo);
+}
+
+.th-nav {
+    background: var(--th-azul);
+}
+
+.th-nav .nav-link {
+    color: #fff;
+}
+
+.th-nav .nav-link.active {
+    color: var(--th-amarillo);
+    font-weight: 600;
+    border-bottom: 2px solid var(--th-amarillo);
+}
+
+.th-footer {
+    background: var(--th-oscuro);
+    color: #fff;
+}
