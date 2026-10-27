@@ -60,17 +60,15 @@
 
     {{-- DERECHA: accesos (se abren en otra ventana, misma sesión) --}}
     <div class="col-lg-7">
-        <div class="row g-4 h-100">
-            <div class="col-md-6 d-flex">
-                <a class="th-tile shadow-sm w-100 d-flex flex-column justify-content-center" href="{{ route('productos.index') }}" target="_blank" rel="noopener">
-                    <div class="fs-1">📦</div>
+        <div class="row gx-4 gy-0 h-100">
+            <div class="col-md-6 d-flex mb-4 mb-md-0">
+                <a class="th-tile shadow-sm w-100 d-flex flex-column justify-content-center text-center align-items-center" href="{{ route('productos.index') }}" target="_blank" rel="noopener">
                     <h5 class="fw-bold mt-2">Registrar producto BD</h5>
                     <p class="mb-0 small text-muted">CRUD de productos del Home Center.</p>
                 </a>
             </div>
             <div class="col-md-6 d-flex">
-                <a class="th-tile shadow-sm w-100 d-flex flex-column justify-content-center" href="{{ route('ventas.index') }}" target="_blank" rel="noopener">
-                    <div class="fs-1">🧾</div>
+                <a class="th-tile shadow-sm w-100 d-flex flex-column justify-content-center text-center align-items-center" href="{{ route('ventas.index') }}" target="_blank" rel="noopener">
                     <h5 class="fw-bold mt-2">Ingreso de Ventas</h5>
                     <p class="mb-0 small text-muted">Registrar ventas a clientes.</p>
                 </a>

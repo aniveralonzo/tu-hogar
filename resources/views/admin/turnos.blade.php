@@ -60,21 +60,17 @@
         </div>
     </div>
 
-    {{-- DERECHA: accesos en otra ventana (misma sesión) --}}
+    {{-- DERECHA: accesos en otra ventana (misma sesión), de la misma altura que la tabla --}}
     <div class="col-xl-3">
-        <div class="row g-3">
-            <div class="col-md-6 col-xl-12">
-                <a class="th-tile shadow-sm" href="{{ route('productos.index') }}" target="_blank" rel="noopener">
-                    <div class="fs-2">📦</div>
-                    <h6 class="fw-bold mt-1 mb-0">Registrar producto BD</h6>
-                </a>
-            </div>
-            <div class="col-md-6 col-xl-12">
-                <a class="th-tile shadow-sm" href="{{ route('ventas.index') }}" target="_blank" rel="noopener">
-                    <div class="fs-2">🧾</div>
-                    <h6 class="fw-bold mt-1 mb-0">Ingreso de Ventas</h6>
-                </a>
-            </div>
+        <div class="d-flex flex-column flex-md-row flex-xl-column gap-3 h-100">
+            <a class="th-tile th-tile-igual shadow-sm d-flex flex-column justify-content-center text-center align-items-center"
+                href="{{ route('productos.index') }}" target="_blank" rel="noopener">
+                <h6 class="fw-bold mt-1 mb-0">Registrar producto BD</h6>
+            </a>
+            <a class="th-tile th-tile-igual shadow-sm d-flex flex-column justify-content-center text-center align-items-center"
+                href="{{ route('ventas.index') }}" target="_blank" rel="noopener">
+                <h6 class="fw-bold mt-1 mb-0">Ingreso de Ventas</h6>
+            </a>
         </div>
     </div>
 </div>

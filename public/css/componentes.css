@@ -17,3 +17,9 @@
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
     color: var(--th-azul);
 }
+
+/* Cuadros de la misma medida dentro de un contenedor flex */
+.th-tile-igual {
+    flex: 1 1 0;
+    min-height: 110px;
+}
